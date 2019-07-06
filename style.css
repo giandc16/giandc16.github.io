@@ -1,0 +1,25 @@
+/* Main CSS File */
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font-weight: normal;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+header {
+  background: #c1c1c1;
+  padding: 5px;
+}
+
+.main-body {
+  background: #f1f1f1;
+}
+
+
+footer {
+  margin: 0 auto;
+}
