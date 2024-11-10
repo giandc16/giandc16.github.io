@@ -199,7 +199,7 @@ a#logo {
 
 
 article.postcard.dark.blue {
-  min-height: 85vh;
+  min-height: 80vh;
   margin: 0 1rem 2rem;
 }
 
@@ -273,7 +273,7 @@ figure img {
     object-fit: cover;
     position: relative;
     height: 100%;
-    max-height: 22rem;
+    max-height: 14rem;
     width: auto;
     margin: 1rem auto 0;
 
@@ -325,6 +325,48 @@ figure img {
       transition: background-color 0.3s;
     }
 
+
+
+
+    
+
+.services-list.row {
+  min-height: 50vh;
+}
+
+
+
+.carousel-control-prev {
+  left: -12px;
+}
+
+.carousel-control-next {
+  right: -12px;
+}
+
+
+
+
+.carousel-indicators {
+  justify-content: flex-start;
+}
+
+.title-block {
+  margin-bottom: .5em;
+}
+
+.postcard__title.blue {
+  font-size: 1.2rem;
+  margin-bottom: .1rem;
+}
+
+.title-block h2 {
+  margin: 0;
+}
+
+.about-section img.rounded {
+  max-height: 12rem;
+}
 
     
 @media screen and (min-width: 769px) {
@@ -407,47 +449,30 @@ figure img {
             min-height: 60vh;
         }
 
+        button.carousel-control {
+          top: 90%;
+          height: 15%;
+          width: 10rem;
+          z-index: 9;
+        }
+        
+        button.carousel-control-prev {
+          left: 60%;
+        }
+
+        button.carousel-control-next {
+          left: 75%;
+        }
+
+        span.carousel-control-next-icon, span.carousel-control-prev-icon {
+          height: 1rem;
+        }
+
+        .about-section img.rounded {
+          max-height: 100%;
+        }
+        
+
   }
 
 
-
-.services-list.row {
-  min-height: 50vh;
-}
-
-
-button.carousel-control {
-  height: 15%;
-  width: 10rem;
-  top: 90%;
-  z-index: 9;
-}
-
-button.carousel-control-prev {
-  left: 60%;
-}
-
-button.carousel-control-next {
-  left: 75%;
-}
-
-span.carousel-control-next-icon, span.carousel-control-prev-icon {
-  height: 1rem;
-}
-
-.carousel-indicators {
-  justify-content: flex-start;
-}
-
-.title-block {
-  margin-bottom: .5em;
-}
-
-.postcard__title.blue {
-  font-size: 1.2rem;
-  margin-bottom: .1rem;
-}
-
-.title-block h2 {
-  margin: 0;
-}
