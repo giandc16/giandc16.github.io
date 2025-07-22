@@ -452,7 +452,28 @@ figure img {
       
 
   }
+img.d-block.w-100 {
+    -webkit-filter: grayscale(70%);
+    filter: grayscale(70%);
+}
 
+img.d-block.w-100.mockup {
+    max-height: 80vh;
+    width: auto;
+    object-fit: contain;
+}
+
+
+#web-dev .demo-gallery img.img-responsive {
+    height: auto !important;
+    width: 100% !important;
+    position: relative;
+    top: 30%;
+}
+
+#web-dev .demo-gallery .row li a {
+    max-width: 10em;
+}
 
 /* lightbox */
 
