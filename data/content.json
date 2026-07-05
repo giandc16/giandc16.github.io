@@ -1,34 +1,104 @@
 {
   "about": {
-    "bio": "I'm a digital marketing professional with 3+ years of experience in crafting compelling online campaigns that drive results. I'm adept at utilizing WordPress to build and maintain engaging websites, and I'm passionate about using video editing to create captivating content that resonates with audiences."
+    "bio": "I'm a digital marketing and web development professional with experience since 2014 across SEO, PPC campaign management, and WordPress/Shopify development. I build and maintain WordPress and Shopify sites, manage paid Google and Meta ad campaigns, and have delivered measurable gains in email engagement and site traffic across freelance and agency engagements."
   },
   "skills": [
-    { "title": "Marketing Assistant", "detail": "Onpage SEO, SMM &amp; PPC" },
-    { "title": "Website Management", "detail": "WordPress Themes &amp; Management, CSS, PHP &amp; JS" },
-    { "title": "Video Editing", "detail": "Canva &amp; Adobe Premiere Pro" }
+    {
+      "title": "Marketing Assistant",
+      "detail": "Onpage SEO, SMM &amp; PPC"
+    },
+    {
+      "title": "Website Management",
+      "detail": "WordPress Themes &amp; Management, CSS, PHP &amp; JS"
+    },
+    {
+      "title": "Video Editing",
+      "detail": "Canva &amp; Adobe Premiere Pro"
+    }
   ],
   "gallerySocial": [
-    { "image": "assets/img/PPC-sample-image-00.png", "caption": "PPC Carousel Image Sample" },
-    { "image": "assets/img/PPC-sample-image-01.png", "caption": "PPC Carousel Image Sample" },
-    { "image": "assets/img/PPC-sample-image-02.png", "caption": "PPC Carousel Image Sample" },
-    { "image": "assets/img/image-dont-go-diy.jpg", "caption": "Social Media Post Sample" },
-    { "image": "assets/img/image-prolong-property.jpg", "caption": "Social Media Post Sample" },
-    { "image": "assets/img/image-service-friends-ecofriendly.jpg", "caption": "Social Media Post Sample" },
-    { "image": "assets/img/image-service-make-roof-look-good.jpg", "caption": "Social Media Post Sample" },
-    { "image": "assets/img/fathers-day-june-banner.jpg", "caption": "Website Banner Sample" },
-    { "image": "assets/img/flag-day-june-banner.jpg", "caption": "Website Banner Sample" },
-    { "image": "assets/img/ADLO-01.png", "caption": "Social Media Post Sample" },
-    { "image": "assets/img/ADLO-02.png", "caption": "Social Media Post Sample" },
-    { "image": "assets/img/ADLO-03.png", "caption": "Social Media Post Sample" },
-    { "image": "assets/img/ADLO-04.png", "caption": "Social Media Post Sample" },
-    { "image": "assets/img/ADLO-05.png", "caption": "Social Media Post Sample" },
-    { "image": "assets/img/ADLO-06.png", "caption": "Social Media Post Sample" }
+    {
+      "image": "assets/img/PPC-sample-image-00.png",
+      "caption": "PPC Carousel Image Sample"
+    },
+    {
+      "image": "assets/img/PPC-sample-image-01.png",
+      "caption": "PPC Carousel Image Sample"
+    },
+    {
+      "image": "assets/img/PPC-sample-image-02.png",
+      "caption": "PPC Carousel Image Sample"
+    },
+    {
+      "image": "assets/img/image-dont-go-diy.jpg",
+      "caption": "Social Media Post Sample"
+    },
+    {
+      "image": "assets/img/image-prolong-property.jpg",
+      "caption": "Social Media Post Sample"
+    },
+    {
+      "image": "assets/img/image-service-friends-ecofriendly.jpg",
+      "caption": "Social Media Post Sample"
+    },
+    {
+      "image": "assets/img/image-service-make-roof-look-good.jpg",
+      "caption": "Social Media Post Sample"
+    },
+    {
+      "image": "assets/img/fathers-day-june-banner.jpg",
+      "caption": "Website Banner Sample"
+    },
+    {
+      "image": "assets/img/flag-day-june-banner.jpg",
+      "caption": "Website Banner Sample"
+    },
+    {
+      "image": "assets/img/ADLO-01.png",
+      "caption": "Social Media Post Sample"
+    },
+    {
+      "image": "assets/img/ADLO-02.png",
+      "caption": "Social Media Post Sample"
+    },
+    {
+      "image": "assets/img/ADLO-03.png",
+      "caption": "Social Media Post Sample"
+    },
+    {
+      "image": "assets/img/ADLO-04.png",
+      "caption": "Social Media Post Sample"
+    },
+    {
+      "image": "assets/img/ADLO-05.png",
+      "caption": "Social Media Post Sample"
+    },
+    {
+      "image": "assets/img/ADLO-06.png",
+      "caption": "Social Media Post Sample"
+    }
   ],
   "galleryWordpress": [
-    { "image": "assets/img/Justin-Thompson-Media-Site-Logo-gold.webp", "link": "https://justinthompsonmedia.com", "title": "JustinThompsonMedia" },
-    { "image": "assets/img/infinity-energy-logo.png", "link": "https://web.archive.org/web/20210422114916/https://infinityenergyorganisation.co.uk/", "title": "Infinity Energy Organisation" },
-    { "image": "assets/img/Infinity-PROPERTY-logo.png", "link": "https://web.archive.org/web/20210801191502/https://infinitypm.co.uk/", "title": "Infinit Property Management" },
-    { "image": "assets/img/image-dont-go-diy.jpg", "link": "assets/img/image-dont-go-diy.jpg", "title": "Social Media Post Sample" }
+    {
+      "image": "assets/img/Justin-Thompson-Media-Site-Logo-gold.webp",
+      "link": "https://justinthompsonmedia.com",
+      "title": "JustinThompsonMedia"
+    },
+    {
+      "image": "assets/img/infinity-energy-logo.png",
+      "link": "https://web.archive.org/web/20210422114916/https://infinityenergyorganisation.co.uk/",
+      "title": "Infinity Energy Organisation"
+    },
+    {
+      "image": "assets/img/Infinity-PROPERTY-logo.png",
+      "link": "https://web.archive.org/web/20210801191502/https://infinitypm.co.uk/",
+      "title": "Infinit Property Management"
+    },
+    {
+      "image": "assets/img/image-dont-go-diy.jpg",
+      "link": "assets/img/image-dont-go-diy.jpg",
+      "title": "Social Media Post Sample"
+    }
   ],
   "videos": [
     {
@@ -48,16 +118,12 @@
     {
       "thumbnail": "assets/img/Mya & Jack Ceremony + Reception.jpg",
       "title": "Third slide label",
-      "description": "Some representative placeholder content for the third slide.",
-      "embedIframe": "",
-      "playTitle": ""
+      "description": "Some representative placeholder content for the third slide."
     },
     {
       "thumbnail": "assets/img/employee testimonial interview.jpg",
       "title": "Third slide label",
-      "description": "Some representative placeholder content for the third slide.",
-      "embedIframe": "",
-      "playTitle": ""
+      "description": "Some representative placeholder content for the third slide."
     },
     {
       "thumbnail": "assets/img/social media short.jpg",
