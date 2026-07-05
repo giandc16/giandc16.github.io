@@ -385,7 +385,35 @@ section#projects {
 
 }
 
+.signup-section .form-signup input {
 
+  box-shadow: 0 0.1875rem 0.1875rem 0 rgba(0, 0, 0, 0.1) !important;
+
+  padding: 1.25rem 2rem;
+
+  height: auto;
+
+  font-family: "Varela Round", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+
+  font-size: 80%;
+
+  text-transform: uppercase;
+
+  letter-spacing: 0.15rem;
+
+  border: 0;
+
+}
+
+
+
+.contact-section {
+
+  padding-top: 5rem;
+
+}
+
+.contact-section .card {
 
 .contact-section {
 
@@ -470,7 +498,7 @@ section#projects {
 }
 
 
-/* gallery */
+/* lightbox */
 
 
         .demo-gallery > ul > li {
@@ -610,40 +638,4 @@ section#projects {
 img.rounded {
     width: 100%;
     height: auto;
-}
-
-.fp-watermark {
-    display: none;
-}
-
-
-
-/* Tabs*/
-section .section-title {
-    text-align: center;
-    color: #007b5e;
-    text-transform: uppercase;
-}
-#tabs{
-	background: #007b5e;
-    color: #eee;
-}
-#tabs h6.section-title{
-    color: #eee;
-}
-
-#tabs .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
-    color: #f3f3f3;
-    background-color: transparent;
-    border-color: transparent transparent #f3f3f3;
-    border-bottom: 4px solid !important;
-    font-size: 20px;
-    font-weight: bold;
-}
-#tabs .nav-tabs .nav-link {
-    border: 1px solid transparent;
-    border-top-left-radius: .25rem;
-    border-top-right-radius: .25rem;
-    color: #eee;
-    font-size: 20px;
 }
