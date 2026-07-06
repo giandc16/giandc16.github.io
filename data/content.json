@@ -79,27 +79,28 @@
     }
   ],
   "galleryWordpress": [
-    {
-      "image": "assets/img/Justin-Thompson-Media-Site-Logo-gold.webp",
-      "link": "https://justinthompsonmedia.com",
-      "title": "JustinThompsonMedia"
-    },
-    {
-      "image": "assets/img/infinity-energy-logo.png",
-      "link": "https://web.archive.org/web/20210422114916/https://infinityenergyorganisation.co.uk/",
-      "title": "Infinity Energy Organisation"
-    },
-    {
-      "image": "assets/img/Infinity-PROPERTY-logo.png",
-      "link": "https://web.archive.org/web/20210801191502/https://infinitypm.co.uk/",
-      "title": "Infinit Property Management"
-    },
-    {
-      "image": "assets/img/image-dont-go-diy.jpg",
-      "link": "assets/img/image-dont-go-diy.jpg",
-      "title": "Social Media Post Sample"
-    }
-  ],
+  {
+    "companyName": "Justin Thompson Media",
+    "logo": "assets/img/Justin-Thompson-Media-Site-Logo-gold.webp",
+    "screenshots": [
+      { "image": "assets/img/Justin-Thompson-Media-Site-Logo-gold.webp", "caption": "Homepage (placeholder — replace with real screenshot)" }
+    ]
+  },
+  {
+    "companyName": "Infinity Energy Organisation",
+    "logo": "assets/img/infinity-energy-logo.png",
+    "screenshots": [
+      { "image": "assets/img/infinity-energy-logo.png", "caption": "Homepage (placeholder — replace with real screenshot)" }
+    ]
+  },
+  {
+    "companyName": "Infinity Property Management",
+    "logo": "assets/img/Infinity-PROPERTY-logo.png",
+    "screenshots": [
+      { "image": "assets/img/Infinity-PROPERTY-logo.png", "caption": "Homepage (placeholder — replace with real screenshot)" }
+    ]
+  }
+],
   "videos": [
     {
       "thumbnail": "assets/img/melanie - sde reaction - thumb.jpg",
