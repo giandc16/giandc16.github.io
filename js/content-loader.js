@@ -24,7 +24,7 @@ fetch('data/content.json')
       li.className = 'col-5 col-md-4 col-lg-3';
       li.innerHTML = `
         <a href="${item.image}" data-toggle="lightbox" data-size="lg" data-caption="${item.caption}">
-          <img class="img-responsive" src="${item.image}">
+          <img class="img-fluid" src="${item.image}">
         </a>`;
       socialList.appendChild(li);
     });
@@ -35,8 +35,8 @@ fetch('data/content.json')
       const li = document.createElement('li');
       li.className = 'col-5 col-md-4 col-lg-3';
       li.innerHTML = `
-        <a href="${item.link}" data-toggle="lightbox" data-title="${item.title}">
-          <img class="img-responsive" src="${item.image}">
+        <a href="${item.image}" data-toggle="lightbox" data-size="lg" data-caption="${item.caption}">
+          <img class="img-fluid" src="${item.image}">
         </a>`;
       wpList.appendChild(li);
     });
