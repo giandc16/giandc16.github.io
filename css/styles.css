@@ -639,3 +639,15 @@ img.rounded {
     width: 100%;
     height: auto;
 }
+
+
+#fullpage {
+  height: 100vh;
+  overflow-y: scroll;
+  scroll-snap-type: y mandatory;
+}
+
+#fullpage > .section {
+  height: 100vh;
+  scroll-snap-align: start;
+}
