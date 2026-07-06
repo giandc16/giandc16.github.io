@@ -28,9 +28,15 @@ content:
         type: object
         list: true
         fields:
-          - { name: image, label: Image, type: image }
-          - { name: link, label: Link, type: string }
-          - { name: title, label: Title, type: string }
+          - { name: companyName, label: Company Name, type: string }
+          - { name: logo, label: Company Logo, type: image }
+          - name: screenshots
+            label: Website Screenshots
+            type: object
+            list: true
+            fields:
+              - { name: image, label: Screenshot, type: image }
+              - { name: caption, label: Page Caption / Label, type: string }
       - name: videos
         label: Videos
         type: object
