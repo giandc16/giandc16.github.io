@@ -6,56 +6,38 @@
 */
 
 :root {
-
   --bs-body-bg: #222;
   --bs-body-color: #ffffff80;
-
   --bs-body-font-family: Nunito, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
 }
 
 html body#page-top {
-
   letter-spacing: 0.0625em;
   background-color: #222222;
-
 }
 
 
 
 #mainNav {
-
   min-height: 3.5rem;
-
   background-color: #fff;
-
 }
 
 #mainNav .navbar-toggler {
-
   font-size: 80%;
-
   padding: 0.75rem;
-
   color: #64a19d;
-
   border: 1px solid #64a19d;
-
 }
 
 #mainNav .navbar-toggler:focus {
-
   outline: none;
-
 }
 
 #mainNav .navbar-brand {
-
   color: #000;
-
   font-weight: 700;
-
   padding: 0.9rem 0;
-
 }
 
 #mainNav .navbar-nav .nav-item:hover {
@@ -654,4 +636,24 @@ li a img {
     width: 200px;
     margin: 20px;
     display: inline-block;
+}
+
+/* Darker, blurred backdrop — only fires for fullscreen (WordPress Development) lightboxes */
+body:has(.modal.show .modal-fullscreen) .modal-backdrop {
+  background-color: rgba(0, 0, 0, 0.9);
+  backdrop-filter: blur(8px);
+}
+
+/* Make the image itself fill the fullscreen modal, edge to edge */
+.modal-fullscreen .modal-body {
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal-fullscreen .modal-body img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
 }
