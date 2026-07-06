@@ -1,3 +1,7 @@
+media:
+  input: assets/img
+  output: assets/img
+  
 content:
   - name: content
     label: Site Content
