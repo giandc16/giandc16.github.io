@@ -31,13 +31,36 @@ fetch('data/content.json')
 
     // WordPress Development gallery
     const wpList = document.getElementById('gallery-wordpress-list');
-    data.galleryWordpress.forEach(item => {
+    data.galleryWordpress.forEach((company, companyIndex) => {
+      const gallerySlug = `wp-gallery-${companyIndex}`;
+    
       const li = document.createElement('li');
       li.className = 'col-5 col-md-4 col-lg-3';
-      li.innerHTML = `
-        <a href="${item.image}" data-toggle="lightbox" data-size="lg" data-caption="${item.caption}">
-          <img class="img-fluid" src="${item.image}">
-        </a>`;
+    
+      // Visible thumbnail (the logo) — clicking it opens the first screenshot
+      const firstScreenshot = company.screenshots[0];
+      const thumbnailLink = document.createElement('a');
+      thumbnailLink.href = firstScreenshot.image;
+      thumbnailLink.setAttribute('data-toggle', 'lightbox');
+      thumbnailLink.setAttribute('data-gallery', gallerySlug);
+      thumbnailLink.setAttribute('data-caption', firstScreenshot.caption);
+      thumbnailLink.setAttribute('data-title', company.companyName);
+      thumbnailLink.innerHTML = `<img class="img-fluid" src="${company.logo}" alt="${company.companyName} logo">`;
+      li.appendChild(thumbnailLink);
+    
+      // Remaining screenshots — hidden, but share the same data-gallery value,
+      // so they join the same carousel without adding extra visible thumbnails
+      company.screenshots.slice(1).forEach(shot => {
+        const hiddenLink = document.createElement('a');
+        hiddenLink.href = shot.image;
+        hiddenLink.setAttribute('data-toggle', 'lightbox');
+        hiddenLink.setAttribute('data-gallery', gallerySlug);
+        hiddenLink.setAttribute('data-caption', shot.caption);
+        hiddenLink.setAttribute('data-title', company.companyName);
+        hiddenLink.className = 'd-none';
+        li.appendChild(hiddenLink);
+      });
+    
       wpList.appendChild(li);
     });
 
