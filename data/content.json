@@ -79,28 +79,49 @@
     }
   ],
   "galleryWordpress": [
-  {
-    "companyName": "Justin Thompson Media",
-    "logo": "assets/img/Justin-Thompson-Media-Site-Logo-gold.webp",
-    "screenshots": [
-      { "image": "assets/img/Justin-Thompson-Media-Site-Logo-gold.webp", "caption": "Homepage (placeholder — replace with real screenshot)" }
-    ]
-  },
-  {
-    "companyName": "Infinity Energy Organisation",
-    "logo": "assets/img/infinity-energy-logo.png",
-    "screenshots": [
-      { "image": "assets/img/infinity-energy-logo.png", "caption": "Homepage (placeholder — replace with real screenshot)" }
-    ]
-  },
-  {
-    "companyName": "Infinity Property Management",
-    "logo": "assets/img/Infinity-PROPERTY-logo.png",
-    "screenshots": [
-      { "image": "assets/img/Infinity-PROPERTY-logo.png", "caption": "Homepage (placeholder — replace with real screenshot)" }
-    ]
-  }
-],
+    {
+      "companyName": "Justin Thompson Media",
+      "logo": "assets/img/Justin-Thompson-Media-Site-Logo-gold.webp",
+      "screenshots": [
+        {
+          "image": "assets/img/Justin-Thompson-Media-Site-Logo-gold.webp",
+          "caption": "Homepage (placeholder — replace with real screenshot)"
+        }
+      ]
+    },
+    {
+      "companyName": "Infinity Energy Organisation",
+      "logo": "assets/img/infinity-energy-logo.png",
+      "screenshots": [
+        {
+          "image": "assets/img/infinity-energy-logo.png",
+          "caption": "Homepage (placeholder — replace with real screenshot)"
+        }
+      ]
+    },
+    {
+      "companyName": "Infinity Property Management",
+      "logo": "assets/img/Infinity-PROPERTY-logo.png",
+      "screenshots": [
+        {
+          "image": "assets/img/Infinity-PROPERTY-logo.png",
+          "caption": "Homepage (placeholder — replace with real screenshot)"
+        }
+      ]
+    },
+    {
+      "companyName": "Shopify - BloomtreeIT",
+      "logo": "assets/img/Website_logo_200x@2x.avif",
+      "screenshots": [
+        {
+          "image": "assets/img/Opera Snapshot_2026-07-06_194455_bloomtreeit.com.png"
+        },
+        {
+          "image": "assets/img/Opera Snapshot_2026-07-06_194518_bloomtreeit.com.png"
+        }
+      ]
+    }
+  ],
   "videos": [
     {
       "thumbnail": "assets/img/melanie - sde reaction - thumb.jpg",
