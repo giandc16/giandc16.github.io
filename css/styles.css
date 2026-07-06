@@ -499,8 +499,6 @@ section#projects {
 
 
 /* lightbox */
-
-
         .demo-gallery > ul > li {
     float: left;
     margin-bottom: 15px;
@@ -650,4 +648,10 @@ img.rounded {
 #fullpage > .section {
   height: 100vh;
   scroll-snap-align: start;
+}
+
+li a img {
+    width: 200px;
+    margin: 20px;
+    display: inline-block;
 }
