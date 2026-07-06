@@ -37,30 +37,30 @@ fetch('data/content.json')
       const li = document.createElement('li');
       li.className = 'col-5 col-md-4 col-lg-3';
     
-      // Visible thumbnail (the logo) — clicking it opens the first screenshot
-      const firstScreenshot = company.screenshots[0];
-      const thumbnailLink = document.createElement('a');
-      thumbnailLink.href = firstScreenshot.image;
-      thumbnailLink.setAttribute('data-toggle', 'lightbox');
-      thumbnailLink.setAttribute('data-gallery', gallerySlug);
-      thumbnailLink.setAttribute('data-caption', firstScreenshot.caption);
-      thumbnailLink.setAttribute('data-title', company.companyName);
-      thumbnailLink.innerHTML = `<img class="img-fluid" src="${company.logo}" alt="${company.companyName} logo">`;
-      li.appendChild(thumbnailLink);
-    
-      // Remaining screenshots — hidden, but share the same data-gallery value,
-      // so they join the same carousel without adding extra visible thumbnails
-      company.screenshots.slice(1).forEach(shot => {
-        const hiddenLink = document.createElement('a');
-        hiddenLink.href = shot.image;
-        hiddenLink.setAttribute('data-toggle', 'lightbox');
-        hiddenLink.setAttribute('data-gallery', gallerySlug);
-        hiddenLink.setAttribute('data-caption', shot.caption);
-        hiddenLink.setAttribute('data-title', company.companyName);
-        hiddenLink.className = 'd-none';
-        li.appendChild(hiddenLink);
-      });
-    
+// Visible thumbnail (the logo) — clicking it opens the first screenshot
+const firstScreenshot = company.screenshots[0];
+const thumbnailLink = document.createElement('a');
+thumbnailLink.href = firstScreenshot.image;
+thumbnailLink.setAttribute('data-toggle', 'lightbox');
+thumbnailLink.setAttribute('data-gallery', gallerySlug);
+thumbnailLink.setAttribute('data-size', 'fullscreen');
+thumbnailLink.setAttribute('data-caption', firstScreenshot.caption);
+thumbnailLink.setAttribute('data-title', company.companyName);
+thumbnailLink.innerHTML = `<img class="img-fluid" src="${company.logo}" alt="${company.companyName} logo">`;
+li.appendChild(thumbnailLink);
+
+// Remaining screenshots — hidden, same gallery + fullscreen size
+company.screenshots.slice(1).forEach(shot => {
+  const hiddenLink = document.createElement('a');
+  hiddenLink.href = shot.image;
+  hiddenLink.setAttribute('data-toggle', 'lightbox');
+  hiddenLink.setAttribute('data-gallery', gallerySlug);
+  hiddenLink.setAttribute('data-size', 'fullscreen');
+  hiddenLink.setAttribute('data-caption', shot.caption);
+  hiddenLink.setAttribute('data-title', company.companyName);
+  hiddenLink.className = 'd-none';
+  li.appendChild(hiddenLink);
+});
       wpList.appendChild(li);
     });
 
