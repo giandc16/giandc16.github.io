@@ -4,16 +4,16 @@
   },
   "skills": [
     {
-      "title": "Marketing Assistant",
-      "detail": "Onpage SEO, SMM &amp; PPC"
+      "title": "Digital Marketing",
+      "detail": "On-page SEO, PPC (Google Ads & Meta Ads), email marketing, social media management"
     },
     {
-      "title": "Website Management",
-      "detail": "WordPress Themes &amp; Management, CSS, PHP &amp; JS"
+      "title": "Website Development",
+      "detail": "Shopify, WordPress (Elementor, WooCommerce, LearnDash), CSS, PHP, JavaScript"
     },
     {
-      "title": "Video Editing",
-      "detail": "Canva &amp; Adobe Premiere Pro"
+      "title": "Content Production",
+      "detail": "Graphic design (Adobe Illustrator, GIMP, Cana, Affinity) and video editing (Canva, Adobe Premiere Pro)"
     }
   ],
   "gallerySocial": [
