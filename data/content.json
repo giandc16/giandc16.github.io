@@ -156,8 +156,23 @@
     }
   ],
   "contactCards": [
-  { "icon": "fas fa-file-alt", "label": "Resume", "linkText": "PDF", "url": "assets/docs/Resume_delaCruz_GianDerrick.pdf" },
-  { "icon": "fas fa-envelope", "label": "Email", "linkText": "giandc16@gmail.com", "url": "mailto:giandc16@gmail.com" },
-  { "icon": "fa-brands fa-linkedin-in", "label": "LinkedIn", "linkText": "Profile", "url": "http://www.linkedin.com/in/gianderrick" }
-]
+    {
+      "icon": "fas fa-file-alt",
+      "label": "Resume",
+      "linkText": "PDF",
+      "url": "assets/docs/Resume%20-%20delaCruz%2C%20GianDerrick.pdf"
+    },
+    {
+      "icon": "fas fa-envelope",
+      "label": "Email",
+      "linkText": "giandc16@gmail.com",
+      "url": "mailto:giandc16@gmail.com"
+    },
+    {
+      "icon": "fa-brands fa-linkedin-in",
+      "label": "LinkedIn",
+      "linkText": "Profile",
+      "url": "http://www.linkedin.com/in/gianderrick"
+    }
+  ]
 }
