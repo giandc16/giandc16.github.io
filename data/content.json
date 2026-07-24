@@ -154,5 +154,10 @@
       "embedIframe": "<iframe src='https://drive.google.com/file/d/1wDm50dw3ED5fvSGVVPQgo8OybTDsb35f/preview' width='640' height='480' allow='autoplay'></iframe>",
       "playTitle": "Canva Video"
     }
-  ]
+  ],
+  "contactCards": [
+  { "icon": "fas fa-file-alt", "label": "Resume", "linkText": "PDF", "url": "assets/docs/Resume_delaCruz_GianDerrick.pdf" },
+  { "icon": "fas fa-envelope", "label": "Email", "linkText": "giandc16@gmail.com", "url": "mailto:giandc16@gmail.com" },
+  { "icon": "fa-brands fa-linkedin-in", "label": "LinkedIn", "linkText": "Profile", "url": "http://www.linkedin.com/in/gianderrick" }
+]
 }
