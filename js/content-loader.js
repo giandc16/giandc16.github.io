@@ -95,6 +95,23 @@ company.screenshots.slice(1).forEach(shot => {
           <a href="#" class="btn btn-outline-light px-4 py-2 rounded-0" ${playButtonAttrs}>Play</a>
         </div>`;
       inner.appendChild(item);
+
+      // Contact cards (Resume / Email / LinkedIn)
+const contactList = document.getElementById('contact-cards-list');
+data.contactCards.forEach(card => {
+  const col = document.createElement('div');
+  col.className = 'col-md-4 mb-3 mb-md-0';
+  col.innerHTML = `
+    <div class="card py-4 h-100">
+      <div class="card-body text-center">
+        <i class="${card.icon} text-primary mb-2"></i>
+        <h4 class="text-uppercase m-0">${card.label}</h4>
+        <hr class="my-4 mx-auto" />
+        <div class="small text-black-50"><a href="${card.url}">${card.linkText}</a></div>
+      </div>
+    </div>`;
+  contactList.appendChild(col);
+  
     });
 
     // Re-attach lightbox behavior to everything just injected
@@ -110,19 +127,5 @@ company.screenshots.slice(1).forEach(shot => {
   })
   .catch(err => console.error('Failed to load content:', err));
 
-// Contact cards (Resume / Email / LinkedIn)
-const contactList = document.getElementById('contact-cards-list');
-data.contactCards.forEach(card => {
-  const col = document.createElement('div');
-  col.className = 'col-md-4 mb-3 mb-md-0';
-  col.innerHTML = `
-    <div class="card py-4 h-100">
-      <div class="card-body text-center">
-        <i class="${card.icon} text-primary mb-2"></i>
-        <h4 class="text-uppercase m-0">${card.label}</h4>
-        <hr class="my-4 mx-auto" />
-        <div class="small text-black-50"><a href="${card.url}">${card.linkText}</a></div>
-      </div>
-    </div>`;
-  contactList.appendChild(col);
+
 });
