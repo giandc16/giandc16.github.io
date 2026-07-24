@@ -51,3 +51,15 @@ content:
           - { name: description, label: Description, type: text }
           - { name: embedIframe, label: Embed Iframe (leave blank if no video), type: text }
           - { name: playTitle, label: Play Button Title, type: string }
+
+      - name: contactCards
+        label: Contact Cards
+        type: object
+        list: true
+        fields:
+          - name: icon
+            label: Icon (Font Awesome class)
+            type: string
+          - { name: label, label: Label, type: string }
+          - { name: linkText, label: Link Display Text, type: string }
+          - { name: url, label: URL, type: string }
